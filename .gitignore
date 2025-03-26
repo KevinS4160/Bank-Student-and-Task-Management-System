@@ -1,5 +1,43 @@
+# Ignore compiled binary files
 *.exe
-*.o
 *.out
-*.txt
+*.o
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore build artifacts
+/build/
+/bin/
+/obj/
+
+# Ignore dependency files
+*.dll
+*.so
+*.dylib
+
+# Ignore log files
+*.log
+
+# Ignore database and text storage files
+accounts.txt
+students.txt
+tasks.txt
+*.csv
+
+# Ignore OS-specific files
 .DS_Store
+Thumbs.db
+
+# Ignore compiled C++ files in Student Organizer
+Student Organizer/*.exe
+Student Organizer/*.out
+Student Organizer/*.o
+
+# Ignore compiled files in Object Oriented IO and Student Management System
+Student Organizer/Object_Oriented_IO/*.exe
+Student Organizer/Object_Oriented_IO/*.out
+Student Organizer/Object_Oriented_IO/*.o
+Student Organizer/Student Management System/*.exe
+Student Organizer/Student Management System/*.out
+Student Organizer/Student Management System/*.o
