@@ -82,5 +82,5 @@ The format for each file follows:
 ## Contributions
 Feel free to fork and improve the project!
 
-## License
+## Licenses
 This project is licensed under the MIT License.
